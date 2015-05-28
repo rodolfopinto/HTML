@@ -1,21 +1,60 @@
 body{
     background-color: #F2FFFC;
+    text-decoration:none;
+    text-decoration: none;
 }
 
-h1{
+nav ul li a {
+    text-decoration: none;
+}
+ blockquote{
+        
+     background:#F2FFFC;
+        text-decoration: none;
+    
+    }
+    
+ footer {
+    background-color: #000;
+    color: white;
+}
+
+ aside {
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+}
+
+aside a {
+    color: inherit;
+    font-family: "Open Sans Condensed", sans-serif;
+    text-decoration: none;
+}
+
+    a{
+        text-decoration: none;
+    }
+
+main h1{
     font-family: "Open Sans Condensed";
     color:white;
     text-align: center;
     background:#851944;
-}
+    text-decoration: none;
+    
 h2{
     font-family: "Open Sans Condensed";
+    text-decoration: none;
    
 }
-p{
+p {
 
     text-align: justify;
     font-family: "Crimson Text";
+    text-decoration: none;
     
 
 }
+    a{
+        text-decoration: none;
+    }
+
