@@ -1,7 +1,7 @@
     body{
         background-color: #F2FFFC;
         text-decoration:none;
-        text-decoration: none;
+        
         
     }
         
@@ -57,6 +57,12 @@
         font-family: "Open Sans Condensed", sans-serif;
         text-decoration: none;
     }
+    aside li {
+        display: inline-block;
+        header{
+        display: inline-block;
+        } 
+    }
 
         a{
             text-decoration: none;
@@ -76,6 +82,7 @@
         
         margin: 0;
         box-sizing: border-box;
+        
     }
     h2{
         font-family: "Open Sans Condensed";
