@@ -9,6 +9,7 @@
     width: 720px;
     margin-left: auto;
     margin-right: auto;
+    padding: 30px 0;
 }
     nav ul li a {
         text-decoration: none;
@@ -20,9 +21,9 @@
             padding: 20px;
             border: 10px solid #C2CCCA;
             width: 250px;
-            margin: 0;
+            margin: 20px 40px;
             box-sizing: border-box;
-         
+            
         }
 
      footer {
@@ -30,7 +31,13 @@
         color: white;
          padding: 20px;
     }
-
+     
+     aside nav h1{
+        
+         font-size: 30px;
+         margin-bottom: 25px;
+         
+     }
      aside {
         background-color: #3C1D3D;
         color: #F2FFFC;
@@ -57,6 +64,7 @@
 
     main h1{
         font-family: "Open Sans Condensed";
+        font-size: 60px;
         color:white;
         text-align: center;
         background:#851944;
@@ -72,6 +80,7 @@
     h2{
         font-family: "Open Sans Condensed";
         text-decoration: none;
+        font-size: 30px;
 
     }
     p {
@@ -80,6 +89,7 @@
         font-family: "Crimson Text";
         text-decoration: none;
         line-height: 20px;
+        margin: 20px 20px;
 
 
     }
@@ -87,3 +97,11 @@
             text-decoration: none;
         }
 
+    main strong
+    {
+        font-weight: bold;
+    }
+    main em{
+        
+        font-style: italic;
+    }
