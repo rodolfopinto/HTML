@@ -16,7 +16,7 @@
     }
      blockquote{
 
-         background:#D3DDDA;
+            background:#D3DDDA;
             text-decoration: none;
             padding: 20px;
             border: 10px solid #C2CCCA;
@@ -41,11 +41,13 @@
      aside {
         background-color: #3C1D3D;
         color: #F2FFFC;
-          box-sizing: border-box;
+        box-sizing: border-box;
          margin: 0;
          width: 250px;
          padding: 10px;
          box-sizing: border-box;
+        text-align: center;
+         
         
     margin-left: auto;
     margin-right: auto;
@@ -57,12 +59,14 @@
         font-family: "Open Sans Condensed", sans-serif;
         text-decoration: none;
     }
-    aside li {
+   #icones-sociais li {
         display: inline-block;
         header{
         display: inline-block;
         } 
     }
+    
+    
 
         a{
             text-decoration: none;
@@ -112,3 +116,31 @@
         
         font-style: italic;
     }
+nav {
+    padding-bottom: 30px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.image{
+    
+    margin-left:525px;
+
+}
+
+.leia-mais{
+   
+    padding-bottom: 30px;
+    color:white;
+    
+    background-color:#C2CCCA;
+    margin-bottom: 20px;
+    font-family: "Open Sans Condensed";
+    font-size: 20px;
+     padding: 20px;
+    border: 10px solid black;
+    width: 250px;
+    margin: 20px 40px;
+}
+
+
