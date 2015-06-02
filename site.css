@@ -37,6 +37,7 @@
          font-size: 30px;
          margin-bottom: 25px;
          
+         
      }
      aside {
         background-color: #3C1D3D;
@@ -47,7 +48,7 @@
          padding: 10px;
          box-sizing: border-box;
         text-align: center;
-         
+         text-transform: uppercase;
         
     margin-left: auto;
     margin-right: auto;
@@ -59,7 +60,7 @@
         font-family: "Open Sans Condensed", sans-serif;
         text-decoration: none;
     }
-   #icones-sociais li {
+   .icones-sociais li {
         display: inline-block;
         header{
         display: inline-block;
@@ -86,6 +87,7 @@
         
         margin: 0;
         box-sizing: border-box;
+        text-transform:uppercase;
         
     }
     h2{
@@ -141,6 +143,23 @@ nav {
     border: 10px solid black;
     width: 250px;
     margin: 20px 40px;
+}
+
+.icones-sociais a{
+    
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-indent: -9999px;
+}
+.github{
+    background-image:url(github.png);
+}
+.twitter{
+    background-image: url(twitter.png);
+}
+.linkedin{
+    background-image: url(linkedin.png);
 }
 
 
