@@ -30,6 +30,7 @@
         background-color: #000;
         color: white;
          padding: 20px;
+          clear: right;
     }
      
      aside nav h1{
@@ -49,6 +50,7 @@
          box-sizing: border-box;
         text-align: center;
          text-transform: uppercase;
+          float: right;
         
     margin-left: auto;
     margin-right: auto;
@@ -59,7 +61,7 @@
         color: inherit;
         font-family: "Open Sans Condensed", sans-serif;
         text-decoration: none;
-    }
+}
    .icones-sociais li {
         display: inline-block;
         header{
@@ -94,6 +96,7 @@
         font-family: "Open Sans Condensed";
         text-decoration: none;
         font-size: 30px;
+        clear: both;
 
     }
     p {
@@ -162,4 +165,34 @@ nav {
     background-image: url(linkedin.png);
 }
 
+.blog1{
+    float:right;
+}
+.blog2{
+    float:right;
+}
+.fiat     {
+    float:right;
+}
+.petrobras {
+    float:left;
+}
+aside , img {
+    float: right;       
+     width: 15%;        
+}
+aside {
+    clear: right;
+   
+    box-sizing: border-box;
+}
 
+
+main{
+    float:left;
+    width:85%; 
+}
+
+footer{
+clear: both;
+}
