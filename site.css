@@ -177,9 +177,13 @@ nav {
 .petrobras {
     float:left;
 }
-aside , img {
+aside , 
+.minha_foto{
     float: right;       
-     width: 15%;        
+    box-sizing: border-box;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+    width: 15%;        
 }
 aside {
     clear: right;
@@ -195,4 +199,19 @@ main{
 
 footer{
 clear: both;
+    
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+.minha_foto {
+        
+    position: relative;
+    top: 0;
+    right: 0;
+
 }
